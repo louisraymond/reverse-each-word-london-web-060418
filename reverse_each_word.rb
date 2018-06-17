@@ -4,4 +4,5 @@ def reverse_each_word(word)
     i.reverse
   end
   rev
+  puts splitup
 end

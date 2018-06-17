@@ -1,6 +1,6 @@
 def reverse_each_word(word)
   splitup=word.split(" ")
-  splitup.map |i| do
+  splitup.map do |i|
     i.reverse
   end
 end

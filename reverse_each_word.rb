@@ -1,7 +1,7 @@
-def reverse_each_word(word)
-  splitup=word.split(" ")
-  return splitup.collect do |i|
-    i.reverse
-  end
-
-end
+def reverse_each_word(array)
+  nuarray = []
+  array.map! do |element|
+    element.reverse
+  end 
+array.join(" ")
+end 
